@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: #e8e8e8;
+}
+#banner {
+	background-color: #602870;
+	padding: 5px 0;
+}
+#banner img {
+	height: 35px;
+	margin-left: 5px;
+}
+#banner-wrapper {
+	display: inline-block;
+}
+#logo {
+	font-family: 'Kreon', serif;
+	color: #fff;
+	font-size: 45px;
+	display: inline-block;
+}
+h3 {
+	font-family: 'Kreon', serif;
+	font-size: 28px;
+	margin: 10px 0 40px 0;
+}
+#submit-button {
+	margin-top: 50px;
+	border-radius: 10px;
+	padding: 10px 0;
+	border: 1px solid #cacaca;
+	width: 250px;
+	background: linear-gradient(#60C, #602870);
+	box-shadow: 1px 0px #CACACA;
+	font-family: Verdana;
+	color: #fff;
+	margin: 0 auto;
+	cursor: pointer;
+}
+#example-box {
+	margin-top: 20px;
+	border-radius: 4px;
+	border: 2px solid #cacaca;
+	display: inline-block;
+	overflow: hidden;
+}
+#example-box img {
+	height: 275px;
+}
+#url-input {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 2px solid #B6B6B6;
+	width: 600px;
+	height: 30px;
+	border-radius: 8px;
+	padding: 0 3px;
+	background-color: #fff;
+	outline: none;
+}
+#description {
+	font-family: 'Kreon', serif;
+	font-size: 18px;
+}
+#share-button {
+	border-radius: 10px;
+	padding: 30px 0;
+	border: 1px solid #cacaca;
+	width: 250px;
+	background: linear-gradient(#60C, #602870);
+	box-shadow: 1px 0px #CACACA;
+	font-family: Verdana;
+	color: #fff;
+	margin: 0 auto;
+	cursor: pointer;
+}
+#column-super-box {
+	visibility: hidden;
+}
+#left-column {
+	margin-bottom: 50px;
+	margin-right: 50px;
+	width: 300px;
+	font-family: 'Kreon', serif;
+	font-size: 35px;
+	position: relative;
+	top: -100px;
+	display: inline-block;
+}
+#right-column {
+	margin-left: 250px;
+	margin-top: 70px;
+	border-radius: 4px;
+	width: 400px;
+	font-size: 22px;
+	height: 300px;
+	font-family: 'Kreon', serif;
+	box-shadow: 0 1px #cacaca;
+	display: inline-block;
+	
+}
+#late-example {
+	margin-top: 20px;
+	height: 170px;
+	padding-top: 100px;
+	padding-left: 5px;
+	text-align: left;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	background: url(img/fbex1.JPG) no-repeat;
+}
